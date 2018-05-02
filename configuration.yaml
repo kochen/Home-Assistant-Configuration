@@ -56,6 +56,30 @@ tts:
 # Cloud
 cloud:
 
+############
+# Additional Zones
+############
+zone:
+  name: !secret zone_name
+  latitude: !secret zone_latitude
+  longitude: !secret zone_longitude
+  icon: mdi:briefcase
+  radius: 250
+
+zone 2:
+  name: !secret zone2_name
+  latitude: !secret zone2_latitude
+  longitude: !secret zone2_longitude
+  icon: mdi:domain
+  radius: 250
+
+zone 3:
+  name: Home
+  latitude: !secret home_latitude
+  longitude: !secret home_longitude
+  icon: mdi:home
+  radius: 150
+
 group: !include groups.yaml
 automation: !include automations.yaml
 script: !include scripts.yaml
