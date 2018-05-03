@@ -2,13 +2,12 @@
 known_devices.yaml
 secrets.yaml
 
-
 # Logs
 *.log
-
 
 # Other
 *.uuid
 *.db*
 deps
 tts
+.*cache

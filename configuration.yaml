@@ -58,6 +58,9 @@ cloud:
 # Climate
 climate: !include_dir_merge_list climate
 
+# Media Players
+media_player: !include_dir_merge_list mediaplayer
+
 ############
 # Additional Zones
 ############
