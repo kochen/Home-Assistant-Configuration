@@ -55,6 +55,9 @@ tts:
 # Cloud
 cloud:
 
+# Climate
+climate: !include_dir_merge_list climate
+
 ############
 # Additional Zones
 ############
