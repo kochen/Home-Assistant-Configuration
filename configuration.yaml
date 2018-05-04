@@ -85,6 +85,6 @@ zone 3:
   icon: mdi:home
   radius: 150
 
-group: !include groups.yaml
+group: !include_dir_merge_named group
 automation: !include automations.yaml
 script: !include scripts.yaml
